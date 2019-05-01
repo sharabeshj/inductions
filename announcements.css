@@ -1,0 +1,113 @@
+.announcement {
+    width:100%;
+    padding:15px 10px;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+    margin-bottom:20px;
+    position:relative;
+}
+
+#ann_loader {
+    margin-top:20px;
+}
+
+.a_head_desc {
+    flex:88%;
+    max-width: 88%;
+}
+
+.name_container {
+    font-size:18px;
+    font-family: "HP";
+    color:#28a745;
+}
+
+.det_ {
+    font-size:13px;
+    font-family: "Calibri";
+    font-weight:bold;
+    color:#24292e;
+}
+
+.desc_com {
+    padding-left:10px;
+}
+
+.topic_desc {
+    padding-top:10px;
+    font-size:16px;
+    padding-bottom:10px;
+    padding-left:10px;
+}
+
+
+@media (max-width:850px) {
+    .a_head_logo {
+        flex:15%;
+        max-width: 15%;
+    }
+    
+    .a_head_desc {
+        flex:85%;
+        max-width: 85%;
+    }
+}
+
+@media (max-width:750px) {
+    .a_head_logo {
+        flex:8%;
+        max-width: 8%;
+    }
+    
+    .a_head_desc {
+        flex:92%;
+        max-width: 92%;
+    }
+}
+
+@media (max-width:620px) {
+    .a_head_logo {
+        flex:10%;
+        max-width: 10%;
+    }
+    
+    .a_head_desc {
+        flex:90%;
+        max-width: 90%;
+    }
+}
+
+@media (max-width:520px) {
+    .a_head_logo {
+        flex:12%;
+        max-width: 12%;
+    }
+    
+    .a_head_desc {
+        flex:88%;
+        max-width: 88%;
+    }
+}
+
+@media (max-width:450px) {
+    .a_head_logo {
+        flex:15%;
+        max-width: 15%;
+    }
+    
+    .a_head_desc {
+        flex:85%;
+        max-width: 85%;
+    }
+}
+
+@media (max-width:410px) {
+    .a_head_logo {
+        flex:18%;
+        max-width: 18%;
+    }
+    
+    .a_head_desc {
+        flex:82%;
+        max-width: 82%;
+    }
+}

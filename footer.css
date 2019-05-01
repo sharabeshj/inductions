@@ -1,0 +1,52 @@
+.footer {
+    margin-top:3px;
+    width:100%;
+    padding:50px 20px;
+    background: #24292e;
+}
+
+.footer_cont {
+    max-width: 1012px;
+    margin: auto;
+    padding-left:10px;
+    position: relative;
+}
+
+.foot_col {
+    color:#fff;
+    font-size:30px;
+    font-family: "HP";
+    display: inline-grid;
+}
+
+._copy {
+    font-size:18px;
+    color:grey;
+    font-family: 'Calibri';
+}
+
+.img_con {
+    display: inline-grid;
+    position: absolute;
+    right:0px;
+}
+
+.f_logo {
+    width:50px;
+    height:50px;
+}
+
+@media (max-width:650px) {
+    .foot_col {
+        font-size:25px;
+    }
+    
+    ._copy {
+        font-size:16px;
+    }
+
+    .f_logo {
+        width:40px;
+        height:40px;
+    }
+}

@@ -1,0 +1,158 @@
+.header {
+    background:#24292e;
+    width:100%;
+    padding-top:16px;
+    padding-bottom:16px;
+    position: relative;
+}
+
+.header a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.header_inner {
+    background:inherit;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1012px;
+    margin:auto;
+    padding:2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#fff;
+}
+
+.header_logo {
+    font-family: 'PP';
+    font-size: 30px;
+}
+
+.header_controller {
+    margin-left: auto;
+    padding-top: 5px;
+}
+
+
+.cr_button {
+    background: none;
+    outline: none;
+    border: 2px solid #28a745;
+    color: #fff;
+    padding:10px;
+    margin-left:10px;
+    margin-right:10px;
+    font-weight:bold;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 100px;
+    width:100px;
+}
+
+.cr_button:hover {
+    background: #28a745;
+}
+
+.header_controller_menu {
+    margin-left: auto;
+    display: none;
+    margin-top:3px;
+}
+
+.menu_bar {
+    position: relative;
+    cursor: pointer;
+}
+
+._bar {
+    background: #fff;
+    height:3px;
+    width:23px;
+    margin-top:5px;
+    border-radius:15px;
+}
+
+.header_responsive {
+    display: none;
+    background: #24292e;
+    width: 100%;
+}
+
+.header_responsive a {
+   text-decoration: none
+}
+
+.menu_1 {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top:1px solid rgba(250,250,250,0.2);
+    color: #fff;
+    padding:10px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor:pointer;
+}
+
+.fade_in {
+    animation: fadein 0.3s linear;
+}
+
+.fade_out {
+    animation: fadeout 0.3s linear;
+}
+
+@keyframes fadein {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 110px;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        height: 110px;
+    }
+    to {
+        height: 0px;
+    }
+}
+
+@media (max-width:650px) {
+    .header_logo {
+        font-size: 25px;
+    }
+    .header_controller {
+        margin-left: auto;
+        margin-top:-6px;
+    }
+    
+}
+
+
+@media (max-width:550px) {
+    .header_controller {
+        display: none;
+    }
+    .header_controller_menu {
+        display: block;
+    }
+}
+
+@media (max-width:400px) {
+    .header_logo {
+        font-size: 20px;
+    }
+
+    .header_controller_menu {
+        margin-top:3px;
+    }
+
+    ._bar {
+        height:2px;
+        width:23px;
+    }
+}

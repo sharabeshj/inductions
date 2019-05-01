@@ -1,0 +1,268 @@
+._no_elec {
+    background:#c8e1ff;
+    width:100%;
+    margin-top:20px;
+    padding:30px;
+    border-radius:5px;
+    text-align:center;
+    text-transform: uppercase;
+    font-size:20px;
+    font-family:"PP";
+}
+
+._contest_want {
+    margin-top:10px;
+    text-align:center;
+    font-family:"PP";
+}
+
+.elec_button {
+    margin-top:30px;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:16px;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+    outline:none;
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg, #34d058 0%, #28a745 90%);
+    color:#fff;
+    font-size:16px;
+    text-transform: uppercase;
+    font-family: "HP";
+    transition: all 0.5s;
+}
+
+.elec_button:hover {
+    background-color: #269f42;
+    background-image: linear-gradient(-180deg, #2fcb53 0%, #269f42 90%);
+}
+
+.elec_button:active {
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg, #28a745 0%, #34d058 90%);
+}
+
+.del_req {
+    background-color: #cb2431;
+    background-image: linear-gradient(-180deg, #de4450 0%, #cb2431 90%);
+    transition:all 0.4s;
+}
+
+.del_req:hover {
+    background-color: #e02c3b;
+    background-image: linear-gradient(-180deg, #f35360 0%, #e02c3b 90%);
+}
+
+.del_req:active {
+    background-color: #cb2431;
+    background-image: linear-gradient(-180deg, #cb2431 0%, #de4450 90%);
+}
+
+._contest_head {
+    padding:10px 20px;
+    padding-bottom: 0px;
+    font-size:16px;
+    font-family: "HP";
+}
+
+._contest_form_cont {
+    padding:10px 20px;
+    position:relative;
+}
+
+._input_cont_s {
+    margin-top:20px;
+}
+
+._input_cont_b{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+._input_label{
+    text-transform:uppercase;
+    color: #0366d6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ui_text {
+    border:1px solid #cacaca;
+    width:100%;
+    padding:15px;
+    outline:none;
+    background:#fff;
+    border-radius:5px;
+    color:#000;
+    margin-top:5px
+}
+
+.text_area {
+    height:150px;
+    resize:none;
+    border-radius: 5px;
+    font-family: "Arial";
+    font-size:14px;
+}
+
+._bar_response  {
+    color: #fff;
+    padding:10px;
+    font-size:20px;
+    font-family:"HP";
+}
+
+._b_green {
+    background:#28a745;
+}
+
+._b_red {
+    background:#cb2431;
+}
+
+._msg {
+    padding:10px;
+    padding-bottom:50px;
+    line-height: 1.5;
+}
+
+
+._evm_cover {
+    background:#fff;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+table,tr {
+    width:100%;
+}
+
+td {
+    background:#fff;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.custom_check {
+    position: relative;
+    display: block;
+    height: 17px;
+    cursor:pointer;
+    width: 17px;
+}
+
+.custom_check input {
+    opacity:0;
+    position: absolute;
+}
+
+.checkmark  {
+    position: absolute;
+    height:20px;
+    width:20px;
+    background:#fff;
+    border-radius:50%;
+    left:0;
+    top:0;
+    border:1.5px solid #28a745;
+    transition:all 0.5s;
+}
+
+.custom_check:hover input ~ .checkmark {
+    background: #c8e1ff;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.custom_check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.custom_check .checkmark:after {
+    background:#28a745;
+    border-radius: 50%;
+    height:12px;
+    width:12px;
+    top:2px;
+    left:2.5px;
+}
+
+.manifest_button {
+    border:none;
+    padding-top:8px;
+    padding-bottom: 8px;
+    text-align: center;
+    width:100%;
+    transition:all 0.5s;
+    color:#0366d6;
+    background:#fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.manifest_button:hover {
+    background: #0366d6;
+    color:#fff;
+}
+
+.manifest_button:active {
+    background: #0366d6;
+    color:#fff;
+}
+
+._cont_name {
+    font-size:16px;
+}
+
+.c_manif {
+    padding-top:20px;
+    padding-bottom:30px;
+}
+
+.img_cont {
+    display:flex;
+    max-width:200px;
+    margin:auto;
+}
+
+.details_cont {
+    display:block;
+    max-width:300px;
+    margin:auto;
+    padding-top:20px;
+    padding-bottom:30px;
+}
+
+.user_det {
+    margin-top:-15px;
+}
+
+#manifest_cont {
+    display:block;
+    max-width:400px;
+    margin:10px;
+    margin-top:-40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:1px solid #c8e1ff;
+    border-radius: 3px;
+    padding-left:15px;
+    padding-right:15px;
+    box-shadow:inset 0px 0px 10px 1px #c8e1ff; 
+}
+
+@media (max-width:400px) {
+    ._cont_name {
+        font-size:14px;
+    }
+}
+

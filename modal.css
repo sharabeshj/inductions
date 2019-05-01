@@ -1,0 +1,40 @@
+.modal_head {
+    padding:5px;
+    padding-left:0px;
+    font-size:20px;
+    font-weight: bold;
+    color:#fff;
+    margin-top:-60px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.modal_cont_box {
+    background:#fff;border: radius 2px;
+    padding:10px;
+}
+
+.panel_ {
+    margin: 20px 10px 10px 10px;
+}
+
+.add_ann_but {
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.modal-content {
+  width:70%;height:auto;
+  position:relative;
+  margin:auto;
+  padding:20px;
+  top:100px;
+ }
+
+@media(max-width:610px) {
+    .modal-content {
+        width:90%;padding:5px;
+       }
+}
