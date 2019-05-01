@@ -89,75 +89,206 @@
                     <div class="task_container">
                         <div div class="_built font_temp task_head" style="text-align:center;">Tasks</div>
                         <br>
-                        <div style="margin-top:2px">
-                            <button class="collapsible">Computer Vision and Machine Learning</button>
-                            <div class="content_" id="cvml_">
-                                <p>Lorem ipsum...</p>
-                            </div>
-                        </div>
+
                         <div style="margin-top:2px">
                             <button class="collapsible">Embedded and Electronics</button>
                             <div class="content_" id="ee_">
                             <div class="task_containe">
                                     <div class="basic_task"><h3>Task 0 | Basic Hardware Task</h3></div>
-                                    <div class="task_cont">
+                                    <div class="task_cont"><br>
                                         <label><b><i>Problem Statement:</i></b></label>
                                         <div class="ps_dis" id="ee_task0_cont">
-                                            <div id="ee_task1_loader" style="display:;">
-                                                <center>
-                                                    <img src="./loader.gif" style="width:100px;height:100px;">
-                                                </center>
-                                            </div>
+                                            For a science fair submission next day , you plan to pull out an all nighter (red-bull ready). But as soon as you start working your MULTIMETER  malfunctions ( things don't work when you want them) ... So use your  embedded skills and design a MULTIMETER to debug your project . 
                                         </div> 
                                     </div>
                                 </div>
                                 <br>
                                 <div class="task_containe">
                                     <div class="basic_task"><h3>Task 1 |Sub-Domain: Electronics</h3></div>
-                                    <div class="task_cont" >
+                                    <div class="task_cont" ><br>
                                         <label><b><i>Problem Statement:</i></b></label>
                                         <div class="ps_dis" id="ee_task1_electronics_cont">
-                                            <div id="ee_task1_electronics_loader" style="display:;">
-                                                <center>
-                                                    <img src="./loader.gif" style="width:100px;height:100px;">
-                                                </center>
-                                            </div>
+                                            <p>Assume that there is army camp in the forest, and you are in base station located at 10km
+                                        away from the camp. The only way for the camp to communicate with the base station is by
+                                        sending random sequence of 0's and 1's . In this random sequence, members from camp will
+                                        add a sequence 11XX (X=0,1), where each of the four sequences indicates an emergency code
+                                        which can only be decoded by the base station.</p>
+                                        <p>You have to design a single circuit to decode all the emergency codes (11XX) present in the
+                                        sequence sent from the camp. Use separate LEDs to indicate each of the 4 sequences whenever
+                                        a sequence has been detected. And also consider a non-overlapping condition (i.e. Once a state
+                                        is detected, continue detection process from the next bit after the detected state).
+                                        </p>Use push buttons in order to send the sequence data consisting of 0' and 1's to the circuit.
                                         </div> 
                                     </div>
                                 </div>
                                 <div class="task_containe">
                                     <div class="basic_task"><h3>Task 1 |Sub-Domain: Embedded Systems</h3></div>
-                                    <div class="task_cont" >
+                                    <div class="task_cont" ><br>
                                         <label><b><i>Problem Statement:</i></b></label>
                                         <div class="ps_dis" id="ee_task1_embedded_cont">
-                                            <div id="ee_task1_embedded_loader" style="display:;">
-                                                <center>
-                                                    <img src="./loader.gif" style="width:100px;height:100px;">
-                                                </center>
-                                            </div>
+                                            Make a system which can produce different musical notes (C4, D4, E4, etc.). Use any
+                                            microcontroller of your choice which will create the audio signal (sinusoidal wave) and play
+                                            it using a speaker. Use push buttons to select among different notes to be played.
                                         </div> 
                                     </div>
                                 </div>
                                 <div class="task_containe">
                                     <div class="basic_task"><h3>Task 1 |Sub-Domain: IOT</h3></div>
-                                    <div class="task_cont" >
+                                    <div class="task_cont" ><br>
                                         <label><b><i>Problem Statement:</i></b></label>
                                         <div class="ps_dis" id="ee_task1_iot_cont">
-                                            <div id="ee_task1_iot_loader" style="display:;">
-                                                <center>
-                                                    <img src="./loader.gif" style="width:100px;height:100px;">
-                                                </center>
-                                            </div>
+                                            <p>
+                                            Everyday in the morning , litres of water are wasted because of overflowing of overhead Tanks. You
+                                            decide to put an end to this by automating the tank filling process. As a tech wizzie interested in IoT
+                                            , you decide to notify the level of tank (either full or not-(2 levels)) in your laptop.
+                                            </p><p>
+                                            Design a module to detect the level in a container( hint: think about available sensors that detect the
+                                            level )
+                                            </p>
+                                            1. Send a signal to indicate the status (whether it is full or not) of tank to a cloudserver
+                                            <br>
+                                            2. Plot the data to have a analysis of usage of tank for an hour
+                                            <br>
+                                            3. On your computer screen print the status of the tank
                                         </div> 
                                     </div>
                                 </div>
                                 <br>
                             </div>
                         </div>
+
                         <div style="margin-top:2px">
                             <button class="collapsible">Robotics and Control</button>
                             <div class="content_" id="rc_">
-                                <p>Lorem ipsum...</p>
+                            <div class="task_containe">
+                                    <div class="basic_task"><h3>Task 0 | Basic Hardware Task</h3></div>
+                                    <div class="task_cont"><br>
+                                        <label><b><i>Problem Statement:</i></b></label>
+                                        <div class="ps_dis" id="rc_task0_cont">
+                                        You are a technically sound person who loves flowers, garden and nature. So you decide to make a sunflower on your own using Servo which points to the direction which has maximum light intensity(constant for a period of time).
+                                        </div> 
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="task_containe">
+                                    <div class="basic_task"><h3>Task 1 |Sub-Domain: Control Systems</h3></div>
+                                    <div class="task_cont" ><br>
+                                        <label><b><i>Problem Statement:</i></b></label>
+                                        <div class="ps_dis" id="rc_task1_control_cont">
+                                            <p>In this task you’ll learn one of the commonly used control algorithms called, PID and
+                                                understand the mathematics behind it. You are expected to a create a python script, play
+                                                around with the parameters of the algorithm and vary the controller gains and understand its
+                                                impact on the system, by plotting the output response vs time using matplotlib.
+                                            </p>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="task_containe">
+                                    <div class="basic_task"><h3>Task 1 |Sub-Domain: Mathematical Modelling</h3></div>
+                                    <div class="task_cont" ><br>
+                                        <label><b><i>Problem Statement:</i></b></label>
+                                        <div class="ps_dis" id="rc_task1_mm_cont">
+                                            A surveillance quadcopter is used to deliver human assistance at the time of natural calamities and
+                                            during one such operation your quadcopter has been damaged unfortunately with only a pair of
+                                            rotors functioning. Being a Robotics enthusiast design a mathematical model to understand the
+                                            motion of your drone and the factors affecting its stability. Having understood the physics behind
+                                            quadcopters design a controller to stabilise the drone.
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="task_containe">
+                                    <div class="basic_task"><h3>Task 1 |Sub-Domain: Solid Modelling</h3></div>
+                                    <div class="task_cont" ><br>
+                                        <label><b><i>Problem Statement:</i></b></label>
+                                        <div class="ps_dis" id="rc_task1_solidm_cont">
+                                            <p>
+                                                The Elevation Mechanism is a mechanism designed to perform tasks and/or lift objects.
+                                                Design and Simulate different methods of elevation mechanism using different combination of
+                                                gears, actuators and joints to lift a block.
+                                            </p>
+                                            <p style="line-height:1.8em">
+                                                Elevation Required – 1m.<br>
+                                                Weight of Block – 100kg.<br>
+                                                Object Orientation – Initial Orientation.<br>
+                                                Size Limitations – 0.5 m x 0.5 m x 1.2m (l*b*h).<br>
+                                                Complexity – Minimum DOF, Links, Actuator(Rotary, Linear).<br>
+                                                Use any type of gears, joints.
+                                            </p>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-top:2px">
+                            <button class="collapsible">Signal Processing and Machine Learning</button>
+                            <div class="content_" id="spml_">
+                             <div class="task_containe">
+                                    <div class="basic_task"><h3>Task 0 | Basic Hardware Task</h3></div>
+                                    <div class="task_cont"><br>
+                                        <label><b><i>Problem Statement:</i></b></label>
+                                        <div class="ps_dis" id="spml_task0_cont">
+                                            One day, you find an interesting puzzle on a magazine, asking to find as
+                                            many differences between two given images for an astounding prize money. You
+                                            being lazy, in spite of the reward, want to find a simple yet robust algorithm which
+                                            is able to do the given task with good accuracy. Finally, you go a step ahead and
+                                            make an LED matrix of suitable size, segment the image into corresponding size
+
+                                            and glow the LED's wherever you find a difference with the help of a micro-
+                                            controller.
+                                        </div> 
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="task_containe">
+                                    <div class="basic_task"><h3>Task 1 |Sub-Domain: Audio Processing</h3></div>
+                                    <div class="task_cont" ><br>
+                                        <label><b><i>Problem Statement:</i></b></label>
+                                        <div class="ps_dis" id="spml_task1_ap_cont">
+                                            <p>It's summer break and most of your friends decide to learn piano by joining
+                                                a local music group. You being the techie among them decide to learn piano
+                                                by using your coding skills. Find the note of the given audio file by finding
+                                                it's fundamental frequency.
+                                            </p>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="task_containe">
+                                    <div class="basic_task"><h3>Task 1 |Sub-Domain: Image Processing</h3></div>
+                                    <div class="task_cont" ><br>
+                                        <label><b><i>Problem Statement:</i></b></label>
+                                        <div class="ps_dis" id="spml_task1_ip_cont">
+                                            You are on the watch of enemy’s missile. Each of the missiles are marked with an Aruco marker ID.
+                                            Aruco markers can be used for pose estimation. In order to predict the enemy’s next move, develop
+                                            a system that identifies the markers and its ID. You plan to use the same for the control of your
+                                            weapons too. Design a system that creates these markers.
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="task_containe">
+                                    <div class="basic_task"><h3>Task 1 |Sub-Domain: Machine Learning</h3></div>
+                                    <div class="task_cont" ><br>
+                                        <label><b><i>Problem Statement:</i></b></label>
+                                        <div class="ps_dis" id="spml_task1_ml_cont">
+                                            <p>
+                                                The Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system
+                                                has lost the locations of some of the crimes in Chicago. They need an approximate location of the
+                                                crime from the remaining data. The dataset is available with the police department and it reflects
+                                                reported incidents of crime (with the exception of murders where data exists for each victim) that
+                                                occurred in the City of Chicago from 2012 to 2017.
+                                            </p>
+                                            <p>
+                                                For the lost locations the related data to those locations is still with Police Department. You are
+                                                given the data related to lost locations of the city. Your task is to predict the exact location of the
+                                                Crime by the help Neural Networks algorithm.
+                                            </p>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <br>
+                             </div>
                             </div>
                         </div>
                     </div>
@@ -225,8 +356,5 @@
 <script>
 </script>
 <script src="./home.js"></script>
-<script>
-    load_task();
-</script>
 </body>
 </html>

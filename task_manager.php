@@ -18,8 +18,7 @@ if(logged_in_session()) {
            $taskno=final_touch($_POST['taskno']);
            $dom=final_touch($_POST['dom']);
            $subdom=final_touch($_POST['subdom']);
-           $ps=final_touch($_POST['ps']);
-           $query="INSERT INTO tasks (Domain, Sub_Domain, PS, Link, Deadline, Task_No) VALUES ('$dom','$subdom', '$ps', '$link','$deadline','$taskno')";
+           $query="INSERT INTO tasks (Domain, Sub_Domain, Link, Deadline, Task_No) VALUES ('$dom','$subdom', '$link','$deadline','$taskno')";
            if($result=$connection->query($query)) {
               echo json_encode("true");
            }

@@ -84,10 +84,9 @@ function task_add() {
     let deadline=document.getElementById("deadline_cont").innerHTML;
     let link=document.getElementById("link_cont").innerHTML;
     let no=document.getElementById("task_no_cont").innerHTML;
-    let ps=document.getElementById("ps_cont").innerHTML;
     let dom=document.getElementById("sel_domain").value;
     let subdom=document.getElementById("sel_sub_domain").value;
-    if(deadline.length==0 || link.length==0 || no.length==0 || ps.length==0 || dom.length0 || subdom.length==0) {
+    if(deadline.length==0 || link.length==0 || no.length==0 || dom.length0 || subdom.length==0) {
         alert("Please fill the required fields first..");
         return;
     }
@@ -95,7 +94,6 @@ function task_add() {
         document.getElementById("deadline_cont").innerHTML="";
         document.getElementById("link_cont").innerHTML="";
         document.getElementById("task_no_cont").innerHTM="";
-        document.getElementById("ps_cont").innerHTML="";
         document.getElementById("sel_domain").value="";
         document.getElementById("sel_sub_domain").value="";
         document.getElementById("modal_cover").style.display="none";
@@ -126,7 +124,7 @@ function task_add() {
         };
         xmlhttp.open("POST", "task_manager.php", true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-        xmlhttp.send("q=add&deadline="+strip_html(deadline)+"&link="+strip_html(link)+"&taskno="+strip_html(no)+"&ps="+strip_html(ps)+"&dom="+dom+"&subdom="+subdom);
+        xmlhttp.send("q=add&deadline="+strip_html(deadline)+"&link="+strip_html(link)+"&taskno="+strip_html(no)+"&dom="+dom+"&subdom="+subdom);
     }
 }
 
@@ -325,7 +323,7 @@ function validate_domain() {
         document.getElementById("sel_sub_domain").value="";
         let temp="";
         temp="<option value=\"\">Choose</option><option value=\"Basic Hardware\">Basic Hardware</option>";
-        if(x=="Embedded and Electronics") {
+        if(x=="Embedded and Analog Electronics") {
             temp+="<option value=\"Electronics\">Electronics</option>"+
                   "<option value=\"Embedded Systems\">Embedded Systems</option>"+
                   "<option value=\"IOT\">IOT</option>";

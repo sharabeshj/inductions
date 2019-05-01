@@ -112,9 +112,9 @@ else {
                                         <div class=\"divp_col_domain\"><span style=\"font-family:'PP'\">Domain:</span></div>
                                         <div class=\"divp_col_sel\"><select name=\"dom_select\" value=\"\" id=\"dom_select\" onchange=\"validate_domain();\">
                                             <option value=\"\">Choose</option>
-                                            <option value=\"Embedded and Electronics\">Embedded and Electronics</option>
+                                            <option value=\"Embedded and Analog Electronics\">Embedded and Analog Electronics</option>
                                             <option value=\"Robotics and Control\">Robotics and Control</option>
-                                            <option value=\"Computer Vision and ML\">Computer Vision and ML</option>
+                                            <option value=\"Signal Processing and Machine Learning\">Signal Processing and Machine Learning</option>
                                         </select></div>
                                         <div class=\"divp_col_but\">
                                             <input type=\"submit\" style=\"display:inline;width:100px;cursor: not-allowed;margin-top: 0px;padding:9px 10px;float:right\" class=\"elec_button\"value=\"Submit\" id=\"but_domain\" disabled>

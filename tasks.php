@@ -117,35 +117,77 @@ else {
                             ?>
                         </div>
                         <div class="tab_desc">
-                            <div class="task_box">
-                               <div class="task_menu_cont">
-                                    <div class="menu_item menu_item_active ">
-                                        Task 0
+                            <div class="instruction_panel">
+                                <div class="_head">Instructions</div>
+                                <div class="inst_content">
+                                    General Instruction goes here
+                                </div>
+                            </div>
+
+                            <div class="task_card row_">
+                                <div class="col_">
+                                    <div class="task_wrapper">
+                                      <a href="./task0.php" title="Click to open Task 0">
+                                        <div class="flip-card">
+                                            <div class="flip-card-inner">
+                                                <div class="flip-card-front">
+                                                    <h2>Task 0</h2> 
+                                                    <img src="./logo_white.png" style="width:100px;height:100px;">
+                                                </div>
+                                                <div class="flip-card-back">
+                                                    <h3>Difficulty Level: Very Easy</h3>
+                                                    <p>Basic Hardware Task</p> 
+                                                    <p>Stage 1</p> 
+                                                    <p>Compulsory</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </a>
                                     </div>
-                                    <div class="menu_item">
-                                        Task 1
+                                </div>
+
+                                <div class="col_">
+                                    <div class="task_wrapper">
+                                      <a href="./task1.php" title="Click to open Task 1">
+                                        <div class="flip-card">
+                                            <div class="flip-card-inner">
+                                                <div class="flip-card-front">
+                                                    <h2>Task 1</h2> 
+                                                    <img src="./logo_white.png" style="width:100px;height:100px;">
+                                                </div>
+                                                <div class="flip-card-back">
+                                                    <h3>Difficulty Level: Easy</h3>
+                                                    <p>Stage 1</p>  
+                                                    <p>3 sub-domains</p> 
+                                                    <p>Compulsory</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </a>
                                     </div>
-                                    <div class="menu_item">
-                                        Task 2
+                                </div>
+
+                                <div class="col_">
+                                    <div class="task_wrapper">
+                                     <a href="" title="Task 2 will open shortly" style="cursor:not-allowed">
+                                        <div class="flip-card">
+                                            <div class="flip-card-inner">
+                                                <div class="flip-card-front">
+                                                    <h2>Task 2</h2> 
+                                                    <img src="./logo_white.png" style="width:100px;height:100px;">
+                                                </div>
+                                                <div class="flip-card-back">
+                                                    <h3>Difficulty Level: Medium</h3> 
+                                                    <p>Stage 2</p> 
+                                                    <p>3 sub-domains</p> 
+                                                    <p>Compulsory</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </a>
                                     </div>
-                               </div>
-                               <div class="task_desc">
-                                    <div id="td_head">Task 0</div>
-                                    <br>
-                                    <div class="task_main_instructions">
-                                    <blockquote>Deadline: <span class="date_highlight">Date</span><br>
-                                        Task submitted after the deadline will not be considered.</blockquote>
-                                    </div>
-                                    <div class="task_short_intro">
-                                        <blockquote style="border:none !important">
-                                            1. You will print the theme arena on a flex sheet and after the release of the theme Rulebook, you will build the whole arena on the printed flex sheet as per the Rulebook instructions.
-                                        </blockquote>
-                                    </div>
-                                    <div class="download_sec">
-                                        <div class="red_head"><blockquote style="border:none !important">Download</blockquote></div>
-                                        Please go through the instructions given in the "<b><i>Read Me.pdf</b></i>" file provided in the Task 0 folder.
-                                    </div>
-                               </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>

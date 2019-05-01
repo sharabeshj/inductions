@@ -211,7 +211,7 @@ else {
                                     Domain
                                     <select name="dom_select" value="" id="dom_select" onchange="validate_domain();">
                                             <option value="">Choose</option>
-                                            <option value="Embedded and Electronics">Embedded and Electronics</option>
+                                            <option value="Embedded and Analog Electronics">Embedded and Analog Electronics</option>
                                             <option value="Robotics and Control">Robotics and Control</option>
                                             <option value="Signal Processing and Machine Learning">Signal Processing and Machine Learning</option>
                                     </select>
@@ -230,10 +230,6 @@ else {
                            <div class="div_text_cont">
                                 <div class="div_text_head" id="link_head">Link for ReadMe</div>
                                 <div class="ui_text div_text" id="link_cont" contenteditable="true" role="textbox" oninput="adjust_head('link');"></div>
-                           </div>
-                           <div class="div_text_cont">
-                                <div class="div_text_head" id="ps_head">Problem Statement</div>
-                                <div class="ui_text div_text" id="ps_cont" contenteditable="true" role="textbox" oninput="adjust_head('ps');"></div>
                            </div>
                            <div class="panel_">
                                 
