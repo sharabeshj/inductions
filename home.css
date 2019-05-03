@@ -197,7 +197,8 @@
 }
 
 .collapsible {
-    background-color: rgba(26, 115, 232, 0.81);;
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg, #34d058 0%, #28a745 90%);
     color: #fff;
     cursor: pointer;
     padding: 18px;
@@ -207,6 +208,16 @@
     outline: none;
     font-size: 15px;
     transition:all 0.5s;
+}
+
+.collapsible:hover{
+    background-color: #269f42;
+    background-image: linear-gradient(-180deg, #2fcb53 0%, #269f42 90%);
+}
+
+.collapsible:after{
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg, #28a745 0%, #34d058 90%);
 }
 
 .collapsible::after {
@@ -229,14 +240,16 @@
 padding: 0 18px;
 max-height: 0;
 overflow: hidden;
-background-color: #c8e1ff;
+background-color: rgba(185, 209, 148, 0.8);
 transition: all 0.2s ease-out;
 }
 
 .basic_task {
+    background-color: rgba(30, 48, 3, 0.849);
     padding: 10px 0px 4px 0px;
     border-bottom:2px solid #269f42;
     text-align:center;
+    color: #c8e1ff;
 }
 
 .basic_task h3 {
